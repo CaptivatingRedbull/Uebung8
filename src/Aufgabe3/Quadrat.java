@@ -5,8 +5,7 @@ public class Quadrat extends Figur{
         super(kantenlaenge, kantenlaenge);
     }
     public Quadrat(int kantenlaenge, String farbe){
-        this(kantenlaenge);
-        this.setFarbe(farbe);
+        super(kantenlaenge, kantenlaenge, farbe);
     }
 
     @Override

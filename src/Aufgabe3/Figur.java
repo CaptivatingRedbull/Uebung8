@@ -18,16 +18,8 @@ public abstract class Figur {
         return mas1;
     }
 
-    public void setMas1(int mas1) {
-        this.mas1 = mas1;
-    }
-
     public int getMas2() {
         return mas2;
-    }
-
-    public void setMas2(int mas2) {
-        this.mas2 = mas2;
     }
 
     public String getFarbe() {

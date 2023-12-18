@@ -1,11 +1,11 @@
 package Aufgabe3;
 
-public class Rechteck extends Figur{
-    public Rechteck(int laenge, int breite, String farbe){
+public class Rechteck extends Figur {
+    public Rechteck(int laenge, int breite, String farbe) {
         super(laenge, breite, farbe);
     }
 
-    public Rechteck(int laenge, int breite){
+    public Rechteck(int laenge, int breite) {
         super(laenge, breite);
     }
 
@@ -15,7 +15,7 @@ public class Rechteck extends Figur{
                 "Länge=" + this.getMas1() +
                 ", Breite=" + this.getMas2() +
                 ", Farbe='" + this.getFarbe() + "'" +
-                ", Umfang=" + this.getUmfang()+
+                ", Umfang=" + this.getUmfang() +
                 ", Fläche=" + this.getFlaeche() + "}");
     }
 }
