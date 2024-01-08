@@ -8,7 +8,7 @@ public class Sockentest {
         }
         System.out.println("Unsortiert: ");
         for(Socke socke : socken)
-            System.out.print(socke.getGroesse() + ", ");
+            System.out.println(socke) ;
         System.out.println();
 
 
@@ -16,8 +16,9 @@ public class Sockentest {
 
         System.out.println("Sortiert: ");
         for (Socke socke : socken) {
-            System.out.print(socke.getGroesse() + ", ");
+            System.out.println(socke);
         }
         System.out.println();
     }
+    
 }

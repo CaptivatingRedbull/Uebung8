@@ -5,7 +5,7 @@ public class Socke implements Sortierbar {
     private String farbe;
 
     public Socke() {
-        groesse = ((int) (Math.random() * 20));
+        groesse = ((int) (Math.random() * 20) + 30);
         farbe = switch ((int) (Math.random() * 5)) {
             case 1 -> "Rot";
             case 2 -> "Gelb";
@@ -31,4 +31,11 @@ public class Socke implements Sortierbar {
             return -1;
     }
 
+    @Override
+    public String toString() {
+        return "Socke{" +
+                "groesse=" + groesse +
+                ", farbe='" + farbe + '\'' +
+                '}';
+    }
 }

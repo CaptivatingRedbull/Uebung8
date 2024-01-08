@@ -6,7 +6,7 @@ public class BubbleSort {
         while(!sortiert) {
             sortiert = true;
             for (int i = 0; i < (array.length-1); i++) {
-                if (array[i].istGroesser(array[i + 1]) == 1) {
+                if (array[i].istGroesser(array[i + 1]) == -1) {
                     wechseln(array, i);
                     sortiert = false;
                 }

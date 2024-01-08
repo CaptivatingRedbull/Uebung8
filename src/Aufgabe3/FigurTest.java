@@ -14,7 +14,7 @@ public class FigurTest {
             System.out.println("Figur " + (i+1) + ": " + figuren[i].toString());
 
     }
-    public static int random20(){
+    public static int random20(){   //Zahl zwischen 1 und 20
         return ((int) (Math.random()*20));
     }
 
